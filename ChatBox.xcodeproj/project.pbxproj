@@ -17,6 +17,8 @@
 		D397DE9C2CB9CB1E00B5509C /* ChatBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DE9B2CB9CB1E00B5509C /* ChatBoxTests.swift */; };
 		D397DEA62CB9CB1E00B5509C /* ChatBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DEA52CB9CB1E00B5509C /* ChatBoxUITests.swift */; };
 		D397DEA82CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DEA72CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift */; };
+		D397DEB62CB9CC4500B5509C /* chatTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */; };
+		D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D397DEA12CB9CB1E00B5509C /* ChatBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D397DEA52CB9CB1E00B5509C /* ChatBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoxUITests.swift; sourceTree = "<group>"; };
 		D397DEA72CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTabBarController.swift; sourceTree = "<group>"; };
+		D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chatTabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D397DE8F2CB9CB1D00B5509C /* LaunchScreen.storyboard */,
 				D397DE922CB9CB1D00B5509C /* Info.plist */,
 				D397DE8A2CB9CB1B00B5509C /* ChatBox.xcdatamodeld */,
+				D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */,
+				D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */,
 			);
 			path = ChatBox;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D397DE8E2CB9CB1D00B5509C /* Assets.xcassets in Resources */,
+				D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */,
 				D397DE912CB9CB1D00B5509C /* Base in Resources */,
 				D397DE892CB9CB1B00B5509C /* Base in Resources */,
 			);
@@ -265,6 +272,7 @@
 				D397DE8C2CB9CB1B00B5509C /* ChatBox.xcdatamodeld in Sources */,
 				D397DE822CB9CB1B00B5509C /* AppDelegate.swift in Sources */,
 				D397DE842CB9CB1B00B5509C /* SceneDelegate.swift in Sources */,
+				D397DEB62CB9CC4500B5509C /* chatTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
