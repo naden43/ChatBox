@@ -1,5 +1,5 @@
 //
-//  chatTabBarController.swift
+//  ThreeViewController.swift
 //  ChatBox
 //
 //  Created by Naden on 12/10/2024.
@@ -7,19 +7,12 @@
 
 import UIKit
 
-class chatTabBarController: UITabBarController {
+class ThreeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let firstVC = FirstViewController()
-        firstVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
-
-        let secondVC = SecondViewController()
-        secondVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
-
-                // Add them to the tab bar controller
-        self.viewControllers = [firstVC, secondVC]
+        // Do any additional setup after loading the view.
     }
 
 

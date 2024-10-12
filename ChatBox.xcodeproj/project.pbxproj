@@ -10,7 +10,6 @@
 		D397DE822CB9CB1B00B5509C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DE812CB9CB1B00B5509C /* AppDelegate.swift */; };
 		D397DE842CB9CB1B00B5509C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DE832CB9CB1B00B5509C /* SceneDelegate.swift */; };
 		D397DE862CB9CB1B00B5509C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DE852CB9CB1B00B5509C /* ViewController.swift */; };
-		D397DE892CB9CB1B00B5509C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D397DE882CB9CB1B00B5509C /* Base */; };
 		D397DE8C2CB9CB1B00B5509C /* ChatBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D397DE8A2CB9CB1B00B5509C /* ChatBox.xcdatamodeld */; };
 		D397DE8E2CB9CB1D00B5509C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D397DE8D2CB9CB1D00B5509C /* Assets.xcassets */; };
 		D397DE912CB9CB1D00B5509C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D397DE902CB9CB1D00B5509C /* Base */; };
@@ -19,6 +18,12 @@
 		D397DEA82CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DEA72CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift */; };
 		D397DEB62CB9CC4500B5509C /* chatTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */; };
 		D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */; };
+		D3C7F97C2CBAEE3100843555 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7F97A2CBAEE3100843555 /* FirstViewController.swift */; };
+		D3C7F97D2CBAEE3100843555 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C7F97B2CBAEE3100843555 /* FirstViewController.xib */; };
+		D3C7F9802CBAEE4F00843555 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7F97E2CBAEE4F00843555 /* SecondViewController.swift */; };
+		D3C7F9812CBAEE4F00843555 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C7F97F2CBAEE4F00843555 /* SecondViewController.xib */; };
+		D3C7F9852CBB15EE00843555 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7F9832CBB15EE00843555 /* ThreeViewController.swift */; };
+		D3C7F9862CBB15EE00843555 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C7F9842CBB15EE00843555 /* ThreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,6 @@
 		D397DE812CB9CB1B00B5509C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D397DE832CB9CB1B00B5509C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D397DE852CB9CB1B00B5509C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D397DE882CB9CB1B00B5509C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D397DE8B2CB9CB1B00B5509C /* ChatBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatBox.xcdatamodel; sourceTree = "<group>"; };
 		D397DE8D2CB9CB1D00B5509C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D397DE902CB9CB1D00B5509C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,12 @@
 		D397DEA72CB9CB1E00B5509C /* ChatBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTabBarController.swift; sourceTree = "<group>"; };
 		D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chatTabBarController.xib; sourceTree = "<group>"; };
+		D3C7F97A2CBAEE3100843555 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D3C7F97B2CBAEE3100843555 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		D3C7F97E2CBAEE4F00843555 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D3C7F97F2CBAEE4F00843555 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		D3C7F9832CBB15EE00843555 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		D3C7F9842CBB15EE00843555 /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +118,18 @@
 				D397DE812CB9CB1B00B5509C /* AppDelegate.swift */,
 				D397DE832CB9CB1B00B5509C /* SceneDelegate.swift */,
 				D397DE852CB9CB1B00B5509C /* ViewController.swift */,
-				D397DE872CB9CB1B00B5509C /* Main.storyboard */,
 				D397DE8D2CB9CB1D00B5509C /* Assets.xcassets */,
 				D397DE8F2CB9CB1D00B5509C /* LaunchScreen.storyboard */,
 				D397DE922CB9CB1D00B5509C /* Info.plist */,
 				D397DE8A2CB9CB1B00B5509C /* ChatBox.xcdatamodeld */,
 				D397DEB42CB9CC4500B5509C /* chatTabBarController.swift */,
 				D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */,
+				D3C7F97A2CBAEE3100843555 /* FirstViewController.swift */,
+				D3C7F97B2CBAEE3100843555 /* FirstViewController.xib */,
+				D3C7F97E2CBAEE4F00843555 /* SecondViewController.swift */,
+				D3C7F97F2CBAEE4F00843555 /* SecondViewController.xib */,
+				D3C7F9832CBB15EE00843555 /* ThreeViewController.swift */,
+				D3C7F9842CBB15EE00843555 /* ThreeViewController.xib */,
 			);
 			path = ChatBox;
 			sourceTree = "<group>";
@@ -241,9 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D397DE8E2CB9CB1D00B5509C /* Assets.xcassets in Resources */,
+				D3C7F97D2CBAEE3100843555 /* FirstViewController.xib in Resources */,
+				D3C7F9812CBAEE4F00843555 /* SecondViewController.xib in Resources */,
 				D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */,
 				D397DE912CB9CB1D00B5509C /* Base in Resources */,
-				D397DE892CB9CB1B00B5509C /* Base in Resources */,
+				D3C7F9862CBB15EE00843555 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +288,11 @@
 				D397DE862CB9CB1B00B5509C /* ViewController.swift in Sources */,
 				D397DE8C2CB9CB1B00B5509C /* ChatBox.xcdatamodeld in Sources */,
 				D397DE822CB9CB1B00B5509C /* AppDelegate.swift in Sources */,
+				D3C7F9852CBB15EE00843555 /* ThreeViewController.swift in Sources */,
 				D397DE842CB9CB1B00B5509C /* SceneDelegate.swift in Sources */,
+				D3C7F9802CBAEE4F00843555 /* SecondViewController.swift in Sources */,
 				D397DEB62CB9CC4500B5509C /* chatTabBarController.swift in Sources */,
+				D3C7F97C2CBAEE3100843555 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D397DE872CB9CB1B00B5509C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D397DE882CB9CB1B00B5509C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D397DE8F2CB9CB1D00B5509C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -458,7 +470,7 @@
 				INFOPLIST_FILE = ChatBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,7 +497,7 @@
 				INFOPLIST_FILE = ChatBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
