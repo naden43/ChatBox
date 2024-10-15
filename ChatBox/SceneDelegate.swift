@@ -25,7 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let navigationController = UINavigationController(rootViewController: tabBar)
         
-        window?.rootViewController = navigationController
+        let sign = SigninViewController(nibName: "SigninViewController", bundle: nil)
+        
+        window?.rootViewController = sign
         window?.makeKeyAndVisible()
         
     }
