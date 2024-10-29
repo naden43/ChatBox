@@ -9,11 +9,33 @@ import UIKit
 
 class SigninViewController: UIViewController {
 
+    @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var loginLabel: UILabel!
     
+    @IBOutlet weak var gmailImageButton: UIImageView!
+    @IBOutlet weak var facebookImageButton: UIImageView!
+    @IBOutlet weak var twitterImageButton: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        facebookImageButton.layer.cornerRadius = facebookImageButton.frame.width/2
+        facebookImageButton.clipsToBounds = true
+        facebookImageButton.layer.borderColor = UIColor.black.cgColor
+        facebookImageButton.layer.borderWidth = 2
+        
+        
+        gmailImageButton.layer.cornerRadius = gmailImageButton.frame.width/2
+        gmailImageButton.clipsToBounds = true
+        gmailImageButton.layer.borderColor = UIColor.black.cgColor
+        gmailImageButton.layer.borderWidth = 2
+        
+        twitterImageButton.layer.cornerRadius = twitterImageButton.frame.width/2
+        twitterImageButton.clipsToBounds = true
+        twitterImageButton.layer.borderColor = UIColor.black.cgColor
+        twitterImageButton.layer.borderWidth = 2
+        
+        
+        
         let loginText = "Log in"
         let normalText = " to Chatbox"
         

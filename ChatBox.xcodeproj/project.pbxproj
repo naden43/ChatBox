@@ -20,6 +20,8 @@
 		D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */; };
 		D3BA585C2CBF25E90058C48C /* SigninViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BA585B2CBF25E90058C48C /* SigninViewController.xib */; };
 		D3BA585D2CBF25E90058C48C /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA585A2CBF25E90058C48C /* SigninViewController.swift */; };
+		D3BD624E2CD05A0000A8C441 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD624C2CD05A0000A8C441 /* SignUpViewController.swift */; };
+		D3BD624F2CD05A0000A8C441 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BD624D2CD05A0000A8C441 /* SignUpViewController.xib */; };
 		D3C7F97C2CBAEE3100843555 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7F97A2CBAEE3100843555 /* FirstViewController.swift */; };
 		D3C7F97D2CBAEE3100843555 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C7F97B2CBAEE3100843555 /* FirstViewController.xib */; };
 		D3C7F9802CBAEE4F00843555 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7F97E2CBAEE4F00843555 /* SecondViewController.swift */; };
@@ -63,6 +65,8 @@
 		D397DEB52CB9CC4500B5509C /* chatTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chatTabBarController.xib; sourceTree = "<group>"; };
 		D3BA585A2CBF25E90058C48C /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		D3BA585B2CBF25E90058C48C /* SigninViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SigninViewController.xib; sourceTree = "<group>"; };
+		D3BD624C2CD05A0000A8C441 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D3BD624D2CD05A0000A8C441 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		D3C7F97A2CBAEE3100843555 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D3C7F97B2CBAEE3100843555 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		D3C7F97E2CBAEE4F00843555 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 		D3BA58562CBF25970058C48C /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				D3BD62462CD04EAA00A8C441 /* SignUp */,
 				D3BA58572CBF25B20058C48C /* SignIn */,
 			);
 			path = Features;
@@ -187,6 +192,23 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3BD62462CD04EAA00A8C441 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD62472CD04EC000A8C441 /* Views */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		D3BD62472CD04EC000A8C441 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD624C2CD05A0000A8C441 /* SignUpViewController.swift */,
+				D3BD624D2CD05A0000A8C441 /* SignUpViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +321,7 @@
 				D3C7F9812CBAEE4F00843555 /* SecondViewController.xib in Resources */,
 				D397DEB72CB9CC4500B5509C /* chatTabBarController.xib in Resources */,
 				D397DE912CB9CB1D00B5509C /* Base in Resources */,
+				D3BD624F2CD05A0000A8C441 /* SignUpViewController.xib in Resources */,
 				D3C7F9862CBB15EE00843555 /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +351,7 @@
 				D397DE8C2CB9CB1B00B5509C /* ChatBox.xcdatamodeld in Sources */,
 				D397DE822CB9CB1B00B5509C /* AppDelegate.swift in Sources */,
 				D3C7F9852CBB15EE00843555 /* ThreeViewController.swift in Sources */,
+				D3BD624E2CD05A0000A8C441 /* SignUpViewController.swift in Sources */,
 				D397DE842CB9CB1B00B5509C /* SceneDelegate.swift in Sources */,
 				D3C7F9802CBAEE4F00843555 /* SecondViewController.swift in Sources */,
 				D397DEB62CB9CC4500B5509C /* chatTabBarController.swift in Sources */,
